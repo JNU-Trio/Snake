@@ -2,6 +2,7 @@
 #define GUARD_Snake_h
 
 #include "Frame.h"
+#include "Food.h"
 class Snake{
 private:
 	int length;
@@ -26,7 +27,10 @@ public:
 	void snakeMove();
 	bool hitWall(Frame& );
 	bool hitItself();
+	bool eatFood(Food&);
+	bool foodOnSnake(Food&);
 
 };
+
 
 #endif

@@ -11,11 +11,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Food.h" />
     <ClInclude Include="Frame.h" />
     <ClInclude Include="gotoprint.h" />
     <ClInclude Include="Snake.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Food.cpp" />
     <ClCompile Include="Frame.cpp" />
     <ClCompile Include="gotoprint.cpp" />
     <ClCompile Include="main.cpp" />
